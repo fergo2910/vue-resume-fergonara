@@ -1,0 +1,204 @@
+{
+  "resumeTitle": "Fernando González CV",
+    "jobTitle":"Ingeniero en Sistemas",
+  "name":"Fernando González",
+  "avatar":"/images/pomy.jpg",
+  "email":"fergonzalez2910@gmail.com",
+  "github":"/fergo2910",
+  "linkedin":"/in/fergo2910/",
+  "whatsapp":"5930-9237",
+  "wisdom":"Follow Heart, Try Everything",
+  "social":{
+    "WhatsApp":""
+  },
+  "jobs":{
+    "Puesto":"Coordinador de desarrollo",
+    "Lugar":"Sopesa"
+  },
+  "lenguaje":{
+    "Inglés": 85
+  },
+  "os":{
+    "Windows": 99,
+    "Linux": 90,
+    "Mac OS": 20
+  },
+  "frameworks":{
+    "Node.js": 80,
+    "Django": 60,
+    "Java EE": 35,
+    "Spring": 30
+  },
+  "programacion":{
+    ".Net": 90,
+    "Java": 80,
+    "PHP": 70,
+    "Shell Script": 70,
+    "ABAP": 50
+  },
+  "ti":{
+    "AWS": 40,
+    "nginx": 80,
+    "Apache": 70
+  },
+  "db":{
+    "SQL Server": 95,
+    "MySQL": 90,
+    "Postgress": 80,
+    "Oracle 11g": 70,
+    "Mongo DB": 70
+  },
+  "evaluation":"热衷和乐于钻研前端技术,具备良好的学习能力、英语阅读和翻译能力。做事认真,工作态度负责,具备团队合作精神。喜欢阅读、跑步和球类运动",
+  "education":{
+    "time":"2012.09-2016.07",
+    "school":"广州中医药大学",
+    "major":"医学信息工程专业",
+    "type":"本科"
+  },
+  "works":[
+    {
+      "company":"美团",
+      "time":"2016.07 - 至今",
+      "title":"前端开发工程师",
+      "projects":[
+        {
+          "name":"聊天文件",
+          "description":[
+            "集中展示Web端IM中发送的文件",
+            "提供文件的下载/预览/多选等功能",
+            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
+          ]
+        },
+        {
+          "name":"公共文件前台/后台前台",
+          "description":[
+            "为企业用户提供的文件管理功能",
+            "犀牛云盘的浓缩版",
+            "权限访问管理"
+          ]
+        },
+        {
+          "name":"审批",
+          "description":[
+            "为用户提供常见的审批申请类型管理",
+            "独立完成审批发起/查看/流程管理等功能",
+            "使用React Native进行移动端开发, 使用Redux进行应用状态管理"
+          ]
+        },
+        {
+          "name":"日志",
+          "description":[
+            "为用户提供日报管理",
+            "提供日志创建/查看等功能",
+            "使用Vue进行移动端开发, 使用Vuex进行应用状态管理"
+          ]
+        }
+      ]
+    },
+    {
+      "company":"美团",
+      "time":"2015.07 - 2016.07",
+      "title":"前端开发工程师(实习)",
+      "projects":[
+        {
+          "name":"犀牛云盘",
+          "description":[
+            "使用jQuery+Handlebars产品一期开发, 提供文件上传/删除/下载/文件夹创建/组创建/人员管理等功能",
+            "使用Flux+React进行产品二期开发, 提供组置顶和重命名/文件转移/预览/分享/权限管理等功能",
+            "使用React+Redux进行产品三期开发, 提供文件多选/列表排序/视图切换等功能"
+          ]
+        },
+        {
+          "name":"群空间/我的文件",
+          "description":[
+            "将犀牛云盘和Web端IM进行集成",
+            "跨团队合作",
+            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects":[
+    {
+      "name": "Vue Resume",
+      "time":"2016.11 - 2016.11",
+      "source":"https://github.com/dwqs/vue-resume",
+      "online":"http://resume.ido321.com",
+      "description":[
+        "纯粹造轮子, 基于Vue+Node.js的简历生成器",
+        "使用Node.js读取JSON数据, 并吐露模板, 前端使用Vue生成页面",
+        "使用Webpack进行打包, Gulp改进工作流"
+      ]
+    },
+    {
+      "name": "Tech-Read",
+      "time":"2016.04 - 2016-05",
+      "source":"https://github.com/dwqs/tech-read",
+      "online":"http://tech-read.ido321.com",
+      "description":[
+        "使用request库进行网络请求, cheerio库解析DOM树, Node.js提供前端API",
+        "前端采用React进行组件化开发, 使用Flux进行数据流管理, localStorage进行浏览器本地存储"
+      ]
+    },
+    {
+      "name":"Flyicon",
+      "time":"2016.03 - 2016.03",
+      "source":"https://github.com/Flyicon",
+      "online":"http://dwqs.github.io/Flyicon/",
+      "description":[
+        "用pure css实现的一些小图标"
+      ]
+    },
+    {
+      "name": "Front-end Developer HandBook",
+      "time":"2015.10 - 2015.12",
+      "source":"https://github.com/dwqs/fedHandlebook",
+      "online":"https://dwqs.gitbooks.io/frontenddevhandbook/content/",
+      "description":[
+        "翻译的前端开发者手册",
+        "使用gitbooks生成在线电子书"
+      ]
+    },
+    {
+      "name":"其它",
+      "time":"2014.10 - 至今",
+      "source":"",
+      "online":"",
+      "description":[{
+            "text": "替换 github「辣眼睛」的主题色",
+            "link": "https://github.com/dwqs/infine",
+            "title": "infine"
+          },{
+              "text": "用于前端项目脚手架的CLI工具",
+              "link": "https://github.com/dwqs/chare",
+              "title": "chare"
+          },{
+              "text": "github 搜索的 chrome 扩展",
+              "link": "https://github.com/dwqs/orbithub",
+              "title": "orbithub"
+          },{
+              "text": "个简单的Relay随机密码生成器",
+              "link": "https://github.com/dwqs/reproto",
+              "title": "reproto"
+          },{
+              "text": "基于React Native的图片预览组件",
+              "link": "https://github.com/dwqs/react-native-image-viewer",
+              "title": "ImageViewer"
+          },{
+              "text": "基于Vue.js的Toast组件",
+              "link": "https://github.com/dwqs/vue-toast",
+              "title": "vue-toast"
+          }
+      ]
+    }
+  ],
+  "skillsDesc":[
+    "熟悉HTML/CSS, 能编写语义化的HTML/CSS, 完成较复杂的布局",
+    "熟悉原生JavaScript(ES6)/DOM/BOM的使用, 能脱离jQuery等类库进行编码",
+    "拥有React/Vue/React Native等前端框架的项目实践经验, 能运用其编写SPA应用",
+    "能够使用Node.js API/Koa搭建简单的后端程序, 用于渲染模板及提供RESTful API",
+    "日常使用Webpack/Gulp/Git/Markdown改进工作流, 掌握常见的Linux命令",
+    "了解Bash/HTML5/CSS3/HTTP协议/Less等预处理工具, 有Nginx建站和反向代理使用经验"
+  ]
+}
