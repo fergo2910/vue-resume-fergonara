@@ -5,17 +5,22 @@
            <div class="right">
                <section class="education">
                     <div class="title-wrap">
-                        <span>教育经历</span>
+                        <span>Educación</span>
                     </div>
                    <div class="content">
                        <span v-for="(value,key) in data.education" :class="key">
                            {{value}}
                        </span>
                    </div>
+                   <div class="content">
+                       <span v-for="(value,key) in data.education2" :class="key">
+                           {{value}}
+                       </span>
+                   </div>
                </section>
                <section class="works">
                    <div class="title-wrap">
-                       <span>项目与工作经验</span>
+                       <span>Experiencia</span>
                    </div>
                    <div class="content">
                        <time-line :items="data.works" :page="1"></time-line>

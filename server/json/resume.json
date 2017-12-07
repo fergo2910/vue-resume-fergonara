@@ -48,33 +48,36 @@
     "Oracle 11g": 70,
     "Mongo DB": 70
   },
-  "evaluation":"热衷和乐于钻研前端技术,具备良好的学习能力、英语阅读和翻译能力。做事认真,工作态度负责,具备团队合作精神。喜欢阅读、跑步和球类运动",
+  "evaluation":"bio",
   "education":{
-    "time":"2012.09-2016.07",
-    "school":"广州中医药大学",
-    "major":"医学信息工程专业",
-    "type":"本科"
+      "time":"2012 - 2016",
+      "school":"Universidad de San Carlos de Guatemala",
+      "major":"Ingeniería en Sistemas"
+  },
+  "education2":{
+      "time":"2010 - 2011",
+      "school":"Colegio Monte Carmelo",
+      "major":"Bachiller en computación"
   },
   "works":[
     {
-      "company":"美团",
-      "time":"2016.07 - 至今",
-      "title":"前端开发工程师",
+      "company":"SOPESA",
+      "time":"2017.09 - Ahora",
+      "title":"Corrdinador de desarrollo",
       "projects":[
         {
-          "name":"聊天文件",
+          "name":"Coordinador",
           "description":[
-            "集中展示Web端IM中发送的文件",
-            "提供文件的下载/预览/多选等功能",
-            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
+            "Gestión de tiempo y tareas para el equipo",
+            "Entrega de soluciones a cliente",
           ]
         },
         {
-          "name":"公共文件前台/后台前台",
+          "name":"Analista Programador",
           "description":[
-            "为企业用户提供的文件管理功能",
-            "犀牛云盘的浓缩版",
-            "权限访问管理"
+            "Desarrollo de pendientes ABAP",
+            "Desarrollo de pendientes WEB",
+            "Soporte a desarrollos"
           ]
         },
         {
