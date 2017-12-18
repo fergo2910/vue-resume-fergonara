@@ -1,0 +1,11 @@
+sudo docker run --rm -v /home/fergonara/Documents/github_files/vue-resume -w /home/fergonara/Documents/github_files/vue-resume -p 9002:9002 node bash -c "npm install && npm run dev && cd client/ && gulp dev"
+
+ docker run --name vue_resume -p 9002:9002 -it node:latest bash
+
+ docker exec -it c8aa89590988 bash
+
+npm install --global gulp-cli
+
+docker run -p 12345:9002 -it fergonara/resume bash
+
+docker build -t fergonara/resume vue-resume/not
