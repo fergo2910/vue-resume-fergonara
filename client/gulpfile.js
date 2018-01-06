@@ -30,7 +30,7 @@ gulp.task('fonts', function () {
 gulp.task('dev', ['images','fonts'],function(callback) {
     var compiler = webpack(webpackConfig);
     new WebpackDevServer(compiler, webpackConfig.devServer).
-    listen(3000, 'localhost', function(err) {
+    listen(3000, '0.0.0.0', function(err) {
         if(err) throw new gutil.PluginError('webpack-dev-server', err);
         //这里监听文件改变然后 重新编译js 没时间搞了,后面再看吧
     });
