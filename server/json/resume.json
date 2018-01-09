@@ -1,6 +1,6 @@
 {
-  "resumeTitle": "Fernando González CV",
-    "jobTitle":"Ingeniero en Sistemas",
+  "resumeTitle": "Fer González CV",
+  "jobTitle":"Ingeniero en Sistemas",
   "name":"Fernando González",
   "avatar":"/images/pomy.jpg",
   "email":"fergonzalez2910@gmail.com",
@@ -19,7 +19,7 @@
     "Inglés": 85
   },
   "os":{
-    "Windows": 99,
+    "Windows": 95,
     "Linux": 90,
     "Mac OS": 20
   },
@@ -62,62 +62,45 @@
   "works":[
     {
       "company":"SOPESA",
-      "time":"2017.09 - Ahora",
-      "title":"Corrdinador de desarrollo",
+      "time":"2017.02 - Ahora",
+      "title":"Sistema ERP - SAP ",
       "projects":[
         {
-          "name":"Coordinador",
+          "name":"Lenguajes de desarrollo",
           "description":[
-            "Desarrollo de pendientes ABAP",
-            "Desarrollo de pendientes WEB",
-            "Soporte a desarrollos"
+            "ABAP - SAP",
+            "PHP - DJANGO",
+            "DOCKER"
           ]
         },
         {
           "name":"Analista Programador",
           "description":[
-            "Desarrollo de pendientes ABAP",
-            "Desarrollo de pendientes WEB",
-            "Soporte a desarrollos"
+            "Análisis, diseño e implementación de requerimientos.",
+            "Modificación e Implementación en modulos SD, DBM, FI, MM."
           ]
         },
         {
-          "name":"审批",
+          "name":"Coordinador de desarrollo",
           "description":[
-            "为用户提供常见的审批申请类型管理",
-            "独立完成审批发起/查看/流程管理等功能",
-            "使用React Native进行移动端开发, 使用Redux进行应用状态管理"
-          ]
-        },
-        {
-          "name":"日志",
-          "description":[
-            "为用户提供日报管理",
-            "提供日志创建/查看等功能",
-            "使用Vue进行移动端开发, 使用Vuex进行应用状态管理"
+            "Gestión de recursos y tiempo para el equipo de trabajo.",
+            "Propuesta y entrega de soluciones a clientes y funcionales.",
+            "Metodología ágil para cambios de requerimientos.",
+            "Encargado de transportes Workbench a mandante de Producción"
           ]
         }
       ]
     },
     {
-      "company":"美团",
-      "time":"2015.07 - 2016.07",
-      "title":"前端开发工程师(实习)",
+      "company":"Seguros Mapfre",
+      "time":"2016.09 - 2017.02",
+      "title":"Desarrollo web ASP.NET",
       "projects":[
         {
-          "name":"犀牛云盘",
+          "name":"Analista Programador",
           "description":[
-            "使用jQuery+Handlebars产品一期开发, 提供文件上传/删除/下载/文件夹创建/组创建/人员管理等功能",
-            "使用Flux+React进行产品二期开发, 提供组置顶和重命名/文件转移/预览/分享/权限管理等功能",
-            "使用React+Redux进行产品三期开发, 提供文件多选/列表排序/视图切换等功能"
-          ]
-        },
-        {
-          "name":"群空间/我的文件",
-          "description":[
-            "将犀牛云盘和Web端IM进行集成",
-            "跨团队合作",
-            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
+            "Desarrollos de nuevas funciones, reportes y flujos de datos a página web.",
+            "Implementación de funciones y paquetes provenientes de Oracle."
           ]
         }
       ]
@@ -125,24 +108,25 @@
   ],
   "projects":[
     {
-      "name": "Vue Resume",
-      "time":"2016.11 - 2016.11",
-      "source":"https://github.com/dwqs/vue-resume",
-      "online":"http://resume.ido321.com",
+      "name": "Letter Wars",
+      "time":"2016.06 - 2016.11",
+      "source":"http://fergo2910.visualstudio.com/",
+      "online":"https://play.google.com/store/apps/details?id=com.tesis.edward.orthography",
       "description":[
-        "纯粹造轮子, 基于Vue+Node.js的简历生成器",
-        "使用Node.js读取JSON数据, 并吐露模板, 前端使用Vue生成页面",
-        "使用Webpack进行打包, Gulp改进工作流"
+        "Web Services SOAP .NET.",
+        "Microsoft SQL Server.",
+        "Android SDK 16."
       ]
     },
     {
-      "name": "Tech-Read",
-      "time":"2016.04 - 2016-05",
-      "source":"https://github.com/dwqs/tech-read",
-      "online":"http://tech-read.ido321.com",
+      "name": "Prácticas Finales",
+      "time":"2016.01 - 2016-06",
+      "source":"https://drive.google.com/open?id=18BI7Cm9O3zK6CNxgs1sAr1Rq02RFtR7u",
+      "online":"http://fmvz.usac.edu.gt/",
       "description":[
-        "使用request库进行网络请求, cheerio库解析DOM树, Node.js提供前端API",
-        "前端采用React进行组件化开发, 使用Flux进行数据流管理, localStorage进行浏览器本地存储"
+        "Consumo de Web Service SOAP para generar boletas de pago.",
+        "Creación de Web Service para obtener pago de boleta desde bancos.",
+        "Diseño de flujo de datos y presentación de los mismos a los estudaintes."
       ]
     },
     {
