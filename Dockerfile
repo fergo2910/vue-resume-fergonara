@@ -1,13 +1,5 @@
 FROM node:carbon
-
-WORKDIR /home/fergonara/Documents/github_files/vue-resume
-
-COPY package.json ./
-
+WORKDIR /home/fergonara/Documents/vue-resume-fergonara
 RUN npm install
-
-COPY . .
-
 EXPOSE 9002
 
-CMD [ "npm", "start" ]
