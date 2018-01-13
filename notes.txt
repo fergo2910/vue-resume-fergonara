@@ -9,3 +9,21 @@ npm install --global gulp-cli
 docker run -p 12345:9002 -it fergonara/resume bash
 
 docker build -t fergonara/resume vue-resume/not
+
+FROM node:carbon
+WORKDIR /home/fergonara/Documents/vue-resume-fergonara
+RUN npm install
+EXPOSE 9002
+
+
+{
+  "AWSEBDockerrunVersion":"1",
+  "Image":{
+    "Name":"node:carbon"
+  },
+  "Ports":[
+    {
+      "ContainerPort":"9002"
+    }
+  ]
+}
