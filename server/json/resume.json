@@ -7,7 +7,7 @@
   "github":"/fergo2910",
   "linkedin":"/in/fergo2910/",
   "whatsapp":"5930-9237",
-  "wisdom":"Conviértete en un estudiante del cambio. Es lo único que permanecerá constante.-Anthony J. d'Angelo",
+  "wisdom":"Conviértete en un estudiante del cambio. Es lo único que permanecerá constante. - Anthony J. d'Angelo",
   "social":{
     "WhatsApp":""
   },
@@ -37,7 +37,8 @@
   "ti":{
     "AWS": 40,
     "nginx": 80,
-    "Apache": 70
+    "Apache": 70,
+    "Docker":90
   },
   "db":{
     "SQL Server": 95,
@@ -46,7 +47,6 @@
     "Oracle 11g": 70,
     "Mongo DB": 70
   },
-  "evaluation":"bio",
   "education":{
       "time":"2012 - 2016",
       "school":"Universidad de San Carlos de Guatemala",
@@ -92,13 +92,29 @@
     {
       "company":"Seguros Mapfre",
       "time":"2016.09 - 2017.02",
-      "title":"Desarrollo web ASP.NET",
+      "title":"Portal Web para Agentes Mapfre",
       "projects":[
         {
           "name":"Analista Programador",
           "description":[
             "Desarrollos de nuevas funciones, reportes y flujos de datos a página web.",
-            "Implementación de funciones y paquetes provenientes de Oracle."
+            "Implementación de funciones y paquetes provenientes de Oracle.",
+            "Creación de módulo para impresión de factras a pólizas de clientes finales."
+          ]
+        }
+      ]
+    },
+    {
+      "company":"Facultad de Medicina Veterinaria y Zooctecnia",
+      "time":"2016.01 - 2016.06",
+      "title":"Implementación de pagos en linea a curso de vacaciones",
+      "projects":[
+        {
+          "name":"Project Manager",
+          "description":[
+            "Planificación de entregables y entrevistas a usuario para obtener requerimientos.",
+            "Diseño, implementación y documentación de la solución final mediante sprints de entregables.",
+            "Comunicación con sistemas externos por medio de servicios web con sistema SIIF-USAC."
           ]
         }
       ]
@@ -106,14 +122,40 @@
   ],
   "projects":[
     {
+      "name": "Certificación AWS",
+      "time":"2018.01 - Ahora",
+      "source":"https://acloud.guru/dashboard",
+      "online":"https://acloud.guru/",
+      "description":[
+        "Certified Solutions Architect - Associate.",
+        "Portal: A Cloud Guru."
+      ]
+    },
+    {
+      "name": "Meet Fergonara",
+      "time":"2017.11 - 2018-01",
+      "source":"https://github.com/fergo2910/vue-resume-fergonara",
+      "online":"http://meetfergonara.us-west-2.elasticbeanstalk.com/",
+      "description":[
+        "Página web de presentación y unión de diferentes cuentas online.",
+        "Fork a repositorio y generación de código fuente propio para curriculum.",
+        "Modificación de código para ser ejecutado desde un contenedor docker.",
+        "Creación de Dockerfile y edición de código para deploy automático en contenedor.",
+        "Creación de repositorio docker para subir imagen y obtenerlo desde AWS.",
+        "Configuración de cuenta y usuario AWS dando permisos en AWS IAM para ingresar a consola.",
+        "Utilización de AWS Elastic Beanstalk para host de página utilizando instancias docker."
+      ]
+    },
+    {
       "name": "Letter Wars",
       "time":"2016.06 - 2016.11",
       "source":"http://fergo2910.visualstudio.com/",
       "online":"https://play.google.com/store/apps/details?id=com.tesis.edward.orthography",
       "description":[
-        "Web Services SOAP .NET.",
-        "Microsoft SQL Server.",
-        "Android SDK 16."
+        "Desarrollo de aplicación android y servicios web como trabajo de graduación.",
+        "Web Services SOAP en framework .NET.",
+        "Base de datos en Microsoft SQL Server.",
+        "Aplicación Android con SDK 16."
       ]
     },
     {
@@ -128,63 +170,27 @@
       ]
     },
     {
-      "name":"Flyicon",
-      "time":"2016.03 - 2016.03",
-      "source":"https://github.com/Flyicon",
-      "online":"http://dwqs.github.io/Flyicon/",
-      "description":[
-        "用pure css实现的一些小图标"
-      ]
-    },
-    {
-      "name": "Front-end Developer HandBook",
-      "time":"2015.10 - 2015.12",
-      "source":"https://github.com/dwqs/fedHandlebook",
-      "online":"https://dwqs.gitbooks.io/frontenddevhandbook/content/",
-      "description":[
-        "翻译的前端开发者手册",
-        "使用gitbooks生成在线电子书"
-      ]
-    },
-    {
-      "name":"其它",
-      "time":"2014.10 - 至今",
+      "name":"Diplomas",
+      "time":"",
       "source":"",
       "online":"",
       "description":[{
-            "text": "替换 github「辣眼睛」的主题色",
-            "link": "https://github.com/dwqs/infine",
-            "title": "infine"
+            "text": "Evaluador Olimpiada Nacional de Ciencias XXVIII",
+            "title": "FIUSAC '15"
           },{
-              "text": "用于前端项目脚手架的CLI工具",
-              "link": "https://github.com/dwqs/chare",
-              "title": "chare"
+              "text": "Comercialización de la tecnología",
+              "title": "INTELITE-ESET '15"
           },{
-              "text": "github 搜索的 chrome 扩展",
-              "link": "https://github.com/dwqs/orbithub",
-              "title": "orbithub"
+              "text": "Evaluador Olimpiada Nacional de Ciencias XXVII",
+              "title": "FIUSAC '14"
           },{
-              "text": "个简单的Relay随机密码生成器",
-              "link": "https://github.com/dwqs/reproto",
-              "title": "reproto"
+              "text": "Didáctica para auxiliares",
+              "title": "FIUSAC '14"
           },{
-              "text": "基于React Native的图片预览组件",
-              "link": "https://github.com/dwqs/react-native-image-viewer",
-              "title": "ImageViewer"
-          },{
-              "text": "基于Vue.js的Toast组件",
-              "link": "https://github.com/dwqs/vue-toast",
-              "title": "vue-toast"
+              "text": "I Congreso Estudiantil de Física",
+              "title": "FIUSAC '13"
           }
       ]
     }
-  ],
-  "skillsDesc":[
-    "熟悉HTML/CSS, 能编写语义化的HTML/CSS, 完成较复杂的布局",
-    "熟悉原生JavaScript(ES6)/DOM/BOM的使用, 能脱离jQuery等类库进行编码",
-    "拥有React/Vue/React Native等前端框架的项目实践经验, 能运用其编写SPA应用",
-    "能够使用Node.js API/Koa搭建简单的后端程序, 用于渲染模板及提供RESTful API",
-    "日常使用Webpack/Gulp/Git/Markdown改进工作流, 掌握常见的Linux命令",
-    "了解Bash/HTML5/CSS3/HTTP协议/Less等预处理工具, 有Nginx建站和反向代理使用经验"
   ]
 }

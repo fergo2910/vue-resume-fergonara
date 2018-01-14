@@ -12,10 +12,10 @@
                     <a :href="'mailto:'+data.email">{{data.email}}</a>
                 </li>
                 <li class="github">
-                    <a :href="'https://www.github.com/'+data.github">{{data.github}}</a>
+                    <a :href="'https://www.github.com'+data.github">{{data.github}}</a>
                 </li>
                 <li class="linked">
-                    <a :href="'https://www.linkedin.com/'+data.linkedin">{{data.linkedin}}</a>
+                    <a :href="'https://www.linkedin.com'+data.linkedin">{{data.linkedin}}</a>
                 </li>
                 <li class="whatsapp">
                     <a :href="data.whatsapp" target="_blank">{{data.whatsapp}}</a>

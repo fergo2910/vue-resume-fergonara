@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="info">
-            <div class="tag">FrameWorks</div>
+            <div class="tag">Frameworks</div>
             <ul class="skills">
                 <li v-for="(value,key) in data.frameworks">
                     <span class="skill-name">{{key}}</span>
@@ -68,12 +68,14 @@
                 </li>
             </ul>
         </div>
+        <!--
         <div class="info">
             <div class="tag">Bio</div>
             <p class="self-evaluation">
                 {{data.evaluation}}
             </p>
         </div>
+        -->
     </div>
 </template>
 

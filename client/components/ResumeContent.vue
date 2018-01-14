@@ -39,6 +39,7 @@
                        <time-line :items="data.projects" :page="2"></time-line>
                    </div>
                </section>
+               <!--
                <section class="skill-desc">
                    <div class="title-wrap">
                        <span>Habilidades</span>
@@ -51,6 +52,7 @@
                         </ul>
                    </div>
                </section>
+               -->
            </div>
        </article>
        <article class="print">

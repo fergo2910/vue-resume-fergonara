@@ -56,12 +56,12 @@
         data (){
             return{
                 items:[{
-                    text:"Código",
+                    text:"Fuente",
                     link:"https://github.com/fergo2910/vue-resume-fergonara.git",
                     isPrint: false
                 },{
-                    text:"Github",
-                    link:"https://github.com/fergo2910",
+                    text:"Docker",
+                    link:"https://hub.docker.com/r/fergo2910/resume/",
                     isPrint:false
                 },{
                     text:"PDF",
