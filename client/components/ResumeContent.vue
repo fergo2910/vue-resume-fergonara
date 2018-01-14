@@ -33,7 +33,7 @@
            <div class="right">
                <section class="projects">
                    <div class="title-wrap">
-                       <span>个人项目</span>
+                       <span>Proyectos</span>
                    </div>
                    <div class="content">
                        <time-line :items="data.projects" :page="2"></time-line>
@@ -41,7 +41,7 @@
                </section>
                <section class="skill-desc">
                    <div class="title-wrap">
-                       <span>技能</span>
+                       <span>Habilidades</span>
                    </div>
                    <div class="content">
                         <ul class="skill-desc">
@@ -57,7 +57,7 @@
            <div class="right">
                <section class="education">
                    <div class="title-wrap">
-                       <span>教育经历</span>
+                       <span>Educación</span>
                    </div>
                    <div class="content">
                        <span v-for="(value,key) in data.education" :class="key">
@@ -67,7 +67,7 @@
                </section>
                <section class="works">
                    <div class="title-wrap">
-                       <span>项目与工作经验</span>
+                       <span>Experiencia</span>
                    </div>
                    <div class="content">
                        <time-line :items="data.works" :page="1"></time-line>
@@ -77,7 +77,7 @@
            <div class="right">
                <section class="projects">
                    <div class="title-wrap">
-                       <span>个人项目</span>
+                       <span>Proyectos</span>
                    </div>
                    <div class="content">
                        <time-line :items="data.projects" :page="2"></time-line>
@@ -85,7 +85,7 @@
                </section>
                <section class="skill-desc">
                    <div class="title-wrap">
-                       <span>技能</span>
+                       <span>Habilidades</span>
                    </div>
                    <div class="content">
                        <ul class="skill-desc">
@@ -98,8 +98,8 @@
            </div>
        </article>
        <footer class="main-footer">
-           <span @click="changePage(true)" v-show="!prev">上一页</span>
-           <span @click="changePage(false)"  v-show="prev">下一页</span>
+           <span @click="changePage(true)" v-show="!prev">Página anterior</span>
+           <span @click="changePage(false)"  v-show="prev">Página siguiente</span>
        </footer>
     </main>
 </template>

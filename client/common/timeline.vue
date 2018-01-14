@@ -9,8 +9,8 @@
                     <span class="work-title">{{item.title}}</span>
                     <span class="project-time">{{item.time}}</span>
                     <span class="project-link">{{item.source}}</span>
-                    <a class="project-code" :href="item.source" v-show="page===2 && item.source" @click.stop="" target="_blank">&nbsp;源代码</a>
-                    <a class="project-code" :href="item.online" v-show="page===2 && item.online" @click.stop="" target="_blank">&nbsp;线上地址</a>
+                    <a class="project-code" :href="item.source" v-show="page===2 && item.source" @click.stop="" target="_blank">&nbsp;Fuente</a>
+                    <a class="project-code" :href="item.online" v-show="page===2 && item.online" @click.stop="" target="_blank">&nbsp;En linea</a>
                 </div>
                 <ul class="work-project-list" v-if="page===1">
                     <li v-for="wp in reverseArr(item.projects)">
@@ -27,7 +27,7 @@
                         <span v-if="typeof desc === 'string'" :style="{paddingLeft:'5px'}">{{desc}}</span>
                         <span v-if="typeof desc === 'object'">
                             <span class="other-text">{{desc.title}}--{{desc.text}}</span>
-                            <a class="project-code" :href="desc.link" v-show="desc.link" @click.stop="" target="_blank">&nbsp;源代码</a>
+                            <a class="project-code" :href="desc.link" v-show="desc.link" @click.stop="" target="_blank">&nbsp;Fuente</a>
                         </span>
                     </li>
                 </ul>

@@ -42,7 +42,7 @@
     export default{
         data (){
             return{
-                text:'This resume is powered with Vue,Node.js and Webpack'
+                text:'This resume is powered with Vue,Node.js, Webpack, docker and AWS'
             };
         }
     };

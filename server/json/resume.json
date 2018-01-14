@@ -1,7 +1,7 @@
 {
   "resumeTitle": "Curriculum",
   "jobTitle":"Ingeniero en Sistemas",
-  "name":"Fer González",
+  "name":"Fernando",
   "avatar":"/images/pomy.jpg",
   "email":"fergonzalez2910@gmail.com",
   "github":"/fergo2910",
@@ -20,21 +20,19 @@
   },
   "os":{
     "Windows": 95,
-    "Linux": 90,
-    "Mac OS": 20
+    "Linux": 90
   },
   "frameworks":{
-    "Node.js": 80,
     "Django": 60,
-    "Java EE": 35,
-    "Spring": 30
+    "Spring MVC": 30
   },
   "programacion":{
     ".Net": 90,
-    "Java": 80,
-    "PHP": 70,
+    "Java": 90,
+    "Python":90,
+    "PHP": 90,
     "Shell Script": 70,
-    "ABAP": 50
+    "ABAP": 90
   },
   "ti":{
     "AWS": 40,
@@ -52,7 +50,7 @@
   "education":{
       "time":"2012 - 2016",
       "school":"Universidad de San Carlos de Guatemala",
-      "major":"Ingeniería en Sistemas"
+      "major":"Ingeniería en Ciencias y Sistemas"
   },
   "education2":{
       "time":"2010 - 2011",
@@ -63,7 +61,7 @@
     {
       "company":"SOPESA",
       "time":"2017.02 - Ahora",
-      "title":"Sistema ERP - SAP ",
+      "title":"Sistema ERP - SAP",
       "projects":[
         {
           "name":"Lenguajes de desarrollo",

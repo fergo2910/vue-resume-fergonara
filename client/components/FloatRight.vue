@@ -65,7 +65,7 @@
                     isPrint:false
                 },{
                     text:"PDF",
-                    link:"/袁康-前端开发.pdf",
+                    link:"/CV_FernandoGonzalez.pdf",
                     isPrint:false
                 },{
                     text:"Imprimir",
